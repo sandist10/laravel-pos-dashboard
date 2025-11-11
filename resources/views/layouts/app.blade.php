@@ -42,30 +42,32 @@
             </a>
 
             <p class="mt-4 text-xs font-semibold text-gray-400 uppercase">Menu Produk</p>
-            <a href="#" class="flex items-center px-3 py-2 rounded-lg hover:bg-gray-100">
-                <span class="mr-2">📦</span> Produk
+            <a href="{{ route('produk.index') }}" class="flex items-center px-3 py-2 rounded-lg hover:bg-gray-100 {{ request()->is('produk') ? 'bg-gray-200 font-semibold' : '' }}">
+                <span class="mr-2">📦</span> Semua Produk
             </a>
+            <a href="{{ route('kategori.index') }}" class="flex items-center px-3 py-2 rounded-lg hover:bg-gray-100 {{ request()->is('kategori*') ? 'bg-gray-200 font-semibold' : '' }}">
+                <span class="mr-2">🏷️</span> Kategori
+            </a>
+
+            <p class="mt-3 text-xs font-semibold text-gray-400 uppercase pl-3">Filter Kategori</p>
             <div class="ml-6 space-y-1">
-                <a href="#" class="block px-3 py-1 text-gray-600 hover:text-gray-900">Kategori</a>
-                <a href="#" class="block px-3 py-1 text-gray-600 hover:text-gray-900">Makanan</a>
-                <a href="#" class="block px-3 py-1 text-gray-600 hover:text-gray-900">Minuman</a>
-                <a href="#" class="block px-3 py-1 text-gray-600 hover:text-gray-900">Stok</a>
+                <a href="{{ route('produk.index', ['kategori' => 'Makanan']) }}" class="block px-3 py-1 text-gray-600 hover:text-gray-900">🍜 Makanan</a>
+                <a href="{{ route('produk.index', ['kategori' => 'Minuman']) }}" class="block px-3 py-1 text-gray-600 hover:text-gray-900">☕ Minuman</a>
+                <a href="{{ route('produk.index', ['kategori' => 'Snack']) }}" class="block px-3 py-1 text-gray-600 hover:text-gray-900">🍿 Snack</a>
             </div>
 
-            <a href="#" class="flex items-center px-3 py-2 rounded-lg hover:bg-gray-100">
-                <span class="mr-2">💲</span> Harga
-            </a>
-            <a href="#" class="flex items-center px-3 py-2 rounded-lg hover:bg-gray-100">
-                <span class="mr-2">🛒</span> Pesanan
+            <p class="mt-4 text-xs font-semibold text-gray-400 uppercase">Menu Inventory</p>
+            <a href="{{ route('inventory.index') }}" class="flex items-center px-3 py-2 rounded-lg hover:bg-gray-100 {{ request()->is('inventory*') ? 'bg-gray-200 font-semibold' : '' }}">
+                <span class="mr-2">📋</span> Bahan Baku
             </a>
             <a href="#" class="flex items-center px-3 py-2 rounded-lg hover:bg-gray-100">
                 <span class="mr-2">🚚</span> Supplier
             </a>
             <a href="#" class="flex items-center px-3 py-2 rounded-lg hover:bg-gray-100">
-                <span class="mr-2">📥</span> Receive
+                <span class="mr-2">📥</span> Stok Masuk
             </a>
             <a href="#" class="flex items-center px-3 py-2 rounded-lg hover:bg-gray-100">
-                <span class="mr-2">📤</span> Issued
+                <span class="mr-2">📤</span> Stok Keluar
             </a>
             <a href="#" class="flex items-center px-3 py-2 rounded-lg hover:bg-gray-100">
                 <span class="mr-2">👥</span> Karyawan
