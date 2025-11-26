@@ -47,7 +47,7 @@
                 <!-- Info Produk -->
                 <div class="mb-6 bg-blue-50 border border-blue-200 rounded-lg p-4">
                     <div class="flex items-center gap-2">
-                        <span class="text-blue-600">📦</span>
+                        <!-- <span class="text-blue-600">📦</span> -->
                         <p class="text-sm text-blue-800">
                             Kategori ini memiliki <strong>{{ $kategori->products_count ?? 0 }} produk</strong> terkait
                         </p>

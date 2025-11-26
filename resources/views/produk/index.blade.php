@@ -11,12 +11,12 @@
             <div class="flex gap-2">
                 <button onclick="openKategoriModal()"
                     class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg flex items-center gap-2 transition">
-                    <span>🏷️</span>
+                    <span>+</span>
                     <span>Tambah Kategori</span>
                 </button>
                 <a href="{{ route('produk.create') }}"
                     class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center gap-2 transition">
-                    <span>➕</span>
+                    <span>+</span>
                     <span>Tambah Produk</span>
                 </a>
             </div>
@@ -65,7 +65,7 @@
                         <p class="text-gray-600 text-sm">Total Produk</p>
                         <p class="text-2xl font-bold text-gray-800">{{ count($products) }}</p>
                     </div>
-                    <div class="text-4xl">📦</div>
+                    <!-- <div class="text-4xl">📦</div> -->
                 </div>
             </div>
             <div class="bg-white rounded-xl shadow p-4">
@@ -74,7 +74,7 @@
                         <p class="text-gray-600 text-sm">Total Stok</p>
                         <p class="text-2xl font-bold text-gray-800">{{ array_sum(array_column($products, 'stok')) }}</p>
                     </div>
-                    <div class="text-4xl">📊</div>
+                    <!-- <div class="text-4xl">📊</div> -->
                 </div>
             </div>
             <div class="bg-white rounded-xl shadow p-4">
@@ -83,7 +83,7 @@
                         <p class="text-gray-600 text-sm">Kategori Aktif</p>
                         <p class="text-2xl font-bold text-gray-800">{{ count(array_unique(array_column($products, 'kategori'))) }}</p>
                     </div>
-                    <div class="text-4xl">🏷️</div>
+                    <!-- <div class="text-4xl">🏷️</div> -->
                 </div>
             </div>
         </div>

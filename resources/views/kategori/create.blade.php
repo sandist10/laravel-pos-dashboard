@@ -58,7 +58,7 @@
         </div>
 
         <!-- Info -->
-        <div class="mt-6 bg-yellow-50 border border-yellow-200 rounded-lg p-4">
+        <!-- <div class="mt-6 bg-yellow-50 border border-yellow-200 rounded-lg p-4">
             <div class="flex items-start gap-3">
                 <span class="text-2xl">⚠️</span>
                 <div>
@@ -68,7 +68,7 @@
                     </p>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 @endsection
 

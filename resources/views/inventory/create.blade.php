@@ -8,7 +8,7 @@
                 <span>←</span>
                 <span>Kembali ke Inventory</span>
             </a>
-            <h1 class="text-2xl font-bold text-gray-800">➕ Tambah Bahan Baku</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Tambah Bahan Baku</h1>
             <p class="text-gray-600 text-sm mt-1">Isi form di bawah untuk menambahkan bahan baku baru</p>
         </div>
 
@@ -153,7 +153,7 @@
 
                 <!-- Summary Card -->
                 <div class="mt-6 p-4 bg-blue-50 rounded-lg border border-blue-200">
-                    <h3 class="font-semibold text-blue-900 mb-3">📊 Ringkasan</h3>
+                    <h3 class="font-semibold text-blue-900 mb-3">Ringkasan</h3>
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
                         <div>
                             <p class="text-blue-700">Stok Awal</p>
@@ -182,14 +182,14 @@
                     </a>
                     <button type="submit"
                         class="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
-                        💾 Simpan Bahan Baku
+                        Simpan Bahan Baku
                     </button>
                 </div>
             </form>
         </div>
 
         <!-- Info -->
-        <div class="mt-6 bg-yellow-50 border border-yellow-200 rounded-lg p-4">
+        <!-- <div class="mt-6 bg-yellow-50 border border-yellow-200 rounded-lg p-4">
             <div class="flex items-start gap-3">
                 <span class="text-2xl">💡</span>
                 <div>
@@ -200,7 +200,7 @@
                     </p>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 
     <script>

@@ -10,7 +10,7 @@
             </div>
             <a href="{{ route('kategori.create') }}"
                 class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center gap-2 transition">
-                <span>➕</span>
+                <span>+</span>
                 <span>Tambah Kategori</span>
             </a>
         </div>
@@ -87,7 +87,7 @@
                             <tr>
                                 <td colspan="5" class="px-6 py-8 text-center text-gray-500">
                                     <div class="flex flex-col items-center">
-                                        <span class="text-4xl mb-2">📦</span>
+                                        <!-- <span class="text-4xl mb-2">📦</span> -->
                                         <p class="text-lg font-medium">Belum ada kategori</p>
                                         <p class="text-sm mt-1">Tambahkan kategori pertama Anda untuk memulai</p>
                                     </div>
@@ -100,7 +100,7 @@
         </div>
 
         <!-- Info Card -->
-        <div class="mt-6 bg-blue-50 border border-blue-200 rounded-lg p-4">
+        <!-- <div class="mt-6 bg-blue-50 border border-blue-200 rounded-lg p-4">
             <div class="flex items-start gap-3">
                 <span class="text-2xl">💡</span>
                 <div>
@@ -110,7 +110,7 @@
                     </p>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 @endsection
 

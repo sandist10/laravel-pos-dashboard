@@ -8,7 +8,7 @@
                 <span>←</span>
                 <span>Kembali ke Inventory</span>
             </a>
-            <h1 class="text-2xl font-bold text-gray-800">✏️ Edit Bahan Baku</h1>
+            <h1 class="text-2xl font-bold text-gray-800">Edit Bahan Baku</h1>
             <p class="text-gray-600 text-sm mt-1">Perbarui informasi bahan baku</p>
         </div>
 
@@ -154,7 +154,7 @@
 
                 <!-- Current Info -->
                 <div class="mt-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
-                    <h3 class="font-semibold text-gray-700 mb-3">📊 Informasi Saat Ini</h3>
+                    <h3 class="font-semibold text-gray-700 mb-3">Informasi Saat Ini</h3>
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
                         <div>
                             <p class="text-gray-600">Stok Saat Ini</p>
@@ -183,7 +183,7 @@
                     </a>
                     <button type="submit"
                         class="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
-                        💾 Update Bahan Baku
+                        Update Bahan Baku
                     </button>
                 </div>
             </form>
